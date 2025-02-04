@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aniket Chauhan Timeline</title>
+    <link rel="stylesheet" href="stylesz.css">
+</head>
+<body>
+
+    <header>
+        <h1>Aniket Chauhan Timeline</h1>
+        <p>"A journey through memories and experiences"</p>
+    </header>
+
+    <div class="timeline-container">
+        <div class="timeline">
+            <div class="event" onclick="openModal('event1')">
+                <div class="event-icon">👼🏽</div>
+                <div class="event-label">Born</div>
+                <div class="event-date">April 3rd 2003</div>
+            </div>
+
+            <div class="event" onclick="openModal('event2')">
+                <div class="event-icon">📚</div>
+                <div class="event-label">Started High School</div>
+                <div class="event-date">August 2017</div>
+            </div>
+
+            <div class="event" onclick="openModal('event3')">
+                <div class="event-icon">🎓</div>
+                <div class="event-label">High School Grad</div>
+                <div class="event-date">May 2021</div>
+            </div>
+
+            <div class="event" onclick="openModal('event4')">
+                <div class="event-icon">🗽</div>
+                <div class="event-label">New york trip</div>
+                <div class="event-date">March 2023</div>
+            </div>
+
+            <div class="event" onclick="openModal('event5')">
+                <div class="event-icon">🧑🏾‍💻</div>
+                <div class="event-label">Software Internship</div>
+                <div class="event-date">May 2023</div>
+            </div>
+
+            <div class="event" onclick="openModal('event6')">
+                <div class="event-icon">🚗</div>
+                <div class="event-label">Road Trip</div>
+                <div class="event-date">Novemeber 2023</div>
+            </div>
+
+            <div class="event" onclick="openModal('event7')">
+                <div class="event-icon">🗽</div>
+                <div class="event-label">Conneticut Trip</div>
+                <div class="event-date">August 2024</div>
+            </div>
+
+            <div class="event" onclick="openModal('event8')">
+                <div class="event-icon">✨</div>
+                <div class="event-label">Northern lights</div>
+                <div class="event-date">October 2024</div>
+            </div>
+
+            <div class="event" onclick="openModal('event9')">
+                <div class="event-icon">🌊</div>
+                <div class="event-label">Florida trip</div>
+                <div class="event-date">December 2024</div>
+            </div>
+
+            <div class="event" onclick="openModal('event10')">
+                <div class="event-icon">💻</div>
+                <div class="event-label">Cyber certificates</div>
+                <div class="event-date">January 2025</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Pop-ups for Each Event -->
+    <div class="modal" id="event1">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('event1')">&times;</span>
+            <h2>Born</h2>
+            <p>I was born in Littleton Colorado on April 3rd 2003.</p>
+            <img src="timeline images/Aniketbaby.jpg" alt="Baby Aniket">
+        </div>
+    </div>
+
+    <div class="modal" id="event2">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('event2')">&times;</span>
+            <h2>Started School</h2>
+            <p>I went to high school at grandview high school and really enjoyed my time there and made some great memories</p>
+            <img src="timeline images/highschool.jpg" alt="First day of school">
+        </div>
+    </div>
+
+    <div class="modal" id="event3">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('event3')">&times;</span>
+            <h2>High school graduation</h2>
+            <p>I graduated high school in 2021 and here is a picture with me and below is a picture with all of my friends.</p>
+            <img src="timeline images/Graduation pic.jpg" alt="High School Grad">
+        </div>
+    </div>
+
+    <div class="modal" id="event4">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('event4')">&times;</span>
+            <h2>New York Trip</h2>
+            <p>During my sophmore year of college I went on a trip to new york during spring break will all my friends which was really fun</p>
+            <img src="timeline images/New york trip.jpg" alt="New york trip">
+        </div>
+    </div>
+
+    <div class="modal" id="event5">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('event5')">&times;</span>
+            <h2>Software Intership</h2>
+            <p>During the summer before my junior year of college I interned at a startup called ManagedMethods over the summer</p>
+            <img src="timeline images/Managedmethods.jpg" alt="Internship">
+        </div>
+    </div>
+
+    <div class="modal" id="event6">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('event6')">&times;</span>
+            <h2>Road Trip</h2>
+            <p>During my junior year I took my first ever road trip to Utah with all of my friends which was extremely memorable</p>
+            <img src="timeline images/Utah trip.JPG" alt="Road trip">
+        </div>
+    </div>
+
+    <div class="modal" id="event7">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('event7')">&times;</span>
+            <h2>Conneticut Trip</h2>
+            <p>I went on a trip this past summer to Conneticut to visit my girlfriend, which was super meaningful</p>
+            <img src="timeline images/Conneticut.jpeg" alt="Website Launch">
+        </div>
+    </div>
+
+    <div class="modal" id="event8">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('event8')">&times;</span>
+            <h2>Seeing the northern lights</h2>
+            <p>During my senior year I was able to see the northern lights from boulder</p>
+            <img src="timeline images/northern lightsjpeg.jpeg" alt="Northern lights">
+        </div>
+    </div>
+
+    <div class="modal" id="event9">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('event9')">&times;</span>
+            <h2>Florida Trip</h2>
+            <p>During this past christmas I was able to visit florida with my friends and my parents which was super fun</p>
+            <img src="timeline images/florida.jpeg" alt="Florida trip">
+        </div>
+    </div>
+
+    <div class="modal" id="event10">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('event10')">&times;</span>
+            <h2>Cyber security certificates</h2>
+            <p>I've been continuing to get my cyber security certifications.</p>
+            <img src="timeline images/Certifications.jpeg" alt="Cyber certificates">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
