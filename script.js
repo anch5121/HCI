@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    // Function to open a modal
+    
     window.openModal = function (eventId) {
         const modal = document.getElementById(eventId);
         if (modal) {
@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     };
 
-    // Function to close a modal
+
     window.closeModal = function (eventId) {
         const modal = document.getElementById(eventId);
         if (modal) {
@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     };
 
-    // Close modal when clicking outside of the content
+
     document.querySelectorAll(".modal").forEach(modal => {
         modal.addEventListener("click", function (event) {
             if (event.target === modal) {
@@ -24,7 +24,6 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 
-    // Expand & Contract Buttons
     const timeline = document.querySelector(".timeline");
 
     document.getElementById("expand").addEventListener("click", function () {
@@ -37,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function () {
         timeline.style.transition = "transform 0.3s ease-in-out";
     });
 
-    // More Like This Navigation
+
     document.querySelectorAll(".nav-buttons button").forEach(button => {
         button.addEventListener("click", function () {
             const targetEvent = this.getAttribute("data-target");
